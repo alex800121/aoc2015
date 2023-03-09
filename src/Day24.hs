@@ -1,54 +1,35 @@
 
 module Day24 (day24) where
 
-import MyLib hiding (Tree)
-import Data.List (partition, delete, maximumBy)
+import MyLib
+import Data.List
+import Debug.Trace
 import Data.Function (on)
-import Data.List.Split (splitOn)
-import Control.Monad (guard)
--- import Data.Set (Set)
--- import qualified Data.Set as Set
+import Control.Applicative
 
-newtype Bridge = B (Int, Int) deriving (Show, Eq)
+safeInit :: [a] -> [a]
+safeInit [] = []
+safeInit xs = init xs
 
-inBridge :: Int -> Bridge -> Bool
-inBridge i (B b) = i == fst b || i == snd b
+toTarget :: Int -> [Int] -> [[Int]]
+toTarget t l
+  -- | trace (show (t, l)) False = undefined
+  | t < 0 = []
+  | t == 0 = [[]]
+  | t > 0 = do
+  y : ys <- safeInit $ tails l
+  let xs' =  toTarget (t - y) ys
+  if null xs' then empty else return (y : minimum' xs')
 
-toNext :: Int -> Bridge -> Maybe Int
-toNext i (B (x, y))
-  | i == x = Just y
-  | i == y = Just x
-  | otherwise = Nothing
-
-canConnect :: Bridge -> Bridge -> Bool
-canConnect (B b1) b2 = inBridge (fst b1) b2 || inBridge (snd b1) b2
-
-inputParser :: String -> [Bridge]
-inputParser = map ((\(x : y : _) -> B (x, y)) . map (read @Int) . splitOn "/") . lines
-
-buildBridges :: [Bridge] -> Int -> [[Bridge]]
-buildBridges b i = let (candidates, rest) = partition (inBridge i) b in if null candidates then return [] else do
-  nextBridge <- candidates
-  let 
-    Just i' = toNext i nextBridge
-    b' = delete nextBridge b
-  (nextBridge :) <$> buildBridges b' i'
-
-scoreBridge :: Bridge -> Int
-scoreBridge (B b) = uncurry (+) b
-
-scoreBridges :: [Bridge] -> Int
-scoreBridges = sum . map scoreBridge
-
-day24a :: [[Bridge]] -> Int
-day24a = maximum . map scoreBridges
-
-day24b :: [[Bridge]] -> Int
-day24b = scoreBridges . maximumBy ((compare `on` length) <> (compare `on` scoreBridges))
+minimum' :: [[Int]] -> [Int]
+minimum' = minimumBy (\a b -> (compare `on` length) a b <> (compare `on` product) a b)
 
 day24 :: IO ()
 day24 = do
-  bridges <- inputParser <$> readFile "input24.txt"
-  let bridgesFrom0 = buildBridges bridges 0
-  putStrLn ("day24a: " ++ show (day24a bridgesFrom0))
-  putStrLn ("day24b: " ++ show (day24b bridgesFrom0))
+  input <- sortBy (flip compare) . map (read @Int) . lines <$> readFile "input24.txt"
+  let s = sum input
+      t = s `div` 3
+      t' = s `div` 4
+  -- print (drop 1 $ inits input, s, t)
+  putStrLn $ ("day24a: " ++) $ show $ product $ minimum' $ toTarget t input
+  putStrLn $ ("day24b: " ++) $ show  $ product $ minimum' $ toTarget t' input

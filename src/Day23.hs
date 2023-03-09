@@ -1,105 +1,58 @@
-{-# LANGUAGE FlexibleContexts #-}
-{-# LANGUAGE AllowAmbiguousTypes #-}
-{-# LANGUAGE ScopedTypeVariables #-}
+{-# LANGUAGE LambdaCase #-}
 module Day23 (day23) where
 
 import MyLib
-import Data.Maybe (fromJust)
-import Text.Megaparsec ( anySingle, parseMaybe, parseTest )
-import Text.Megaparsec.Char (space, string)
-import Text.Megaparsec.Char.Lexer (decimal)
-import Control.Monad.Combinators ( (<|>) )
+import Data.Vector (Vector)
+import qualified Data.Vector as Vector
 import Data.Map (Map)
 import qualified Data.Map as Map
-import Control.Monad (when)
-import Data.Sequence (Seq(..))
-import qualified Data.Sequence as Seq
--- import Debug.Trace
-import Control.Effect.State.Labelled
-import Control.Effect.Labelled
-import Control.Carrier.State.Strict hiding (get, put)
-import Control.Carrier.Writer.Strict
-import Control.Effect.Writer
-import Control.Effect.Reader
-import Control.Carrier.Reader
-import GHC.Natural (Natural)
-import Data.Monoid (Sum)
+import Data.Maybe (maybe)
 import Debug.Trace
-import Control.Monad (guard)
-import Data.List ((\\))
 
-type Registry = Map Reg Int
-type Reg = Char
-data Reg2 = Re Reg | In Int deriving Show
-data RegIns = Set Reg Reg2
-            | Sub Reg Reg2
-            | Mul Reg Reg2
-            | Jnz Reg2 Reg2
-            deriving Show
+data Register = A | B deriving (Show, Eq, Ord)
+data Instruction = HLF Register
+                 | TPL Register
+                 | INC Register
+                 | JMP Int
+                 | JIE Register Int
+                 | JIO Register Int
+  deriving (Show, Eq, Ord)
+data Machine = M { pointer :: Int, register :: Map Register Int, ins :: Vector Instruction }
+  deriving (Show, Eq, Ord)
 
-data Player = Player {registry :: Registry, position :: Int} deriving Show
+step :: Machine -> Maybe Machine
+step m = (`interpret` m) <$> m.ins Vector.!? m.pointer 
 
-playera = Player Map.empty 0
-player0 = Player (Map.singleton 'p' 0) 0
-player1 = Player (Map.singleton 'p' 1) 0
-playera' = Player (Map.singleton 'a' 1) 0
-
-runPlayer :: forall n sig m. (HasLabelled (n :: Natural) (State Player) sig m) => [RegIns] -> m Int
-runPlayer regIns = do
-  player <- get @n
-  -- case trace (show player) $ regIns !? player.position of
-  case regIns !? player.position of
-    Nothing -> return 0
-    Just ins -> case ins of
-      Set reg reg2 -> let
-        player' = player {registry = Map.insert reg (interpretReg player.registry reg2) player.registry, position = player.position + 1}
-        in put @n player' >> runPlayer @n regIns
-      Sub reg reg2 -> let
-        player' = player {registry = Map.adjust (subtract (interpretReg player.registry reg2)) reg player.registry, position = player.position + 1}
-        in put @n player' >> runPlayer @n regIns
-      Mul reg reg2 -> let
-        player' = player {registry = Map.adjust (* interpretReg player.registry reg2) reg player.registry, position = player.position + 1}
-        in put @n player' >> (+ 1) <$> runPlayer @n regIns
-      Jnz reg1 reg2 -> let
-        x = interpretReg player.registry reg1
-        offset = if x /= 0 then interpretReg player.registry reg2 else 1
-        player' = player {position = player.position + offset}
-        in put @n player' >> runPlayer @n regIns
+run :: Machine -> Int
+-- run m = trace (show (m.pointer, m.register)) $ case step m of
+run m = case step m of
+  Nothing -> m.register Map.! B
+  Just m' -> run m'
 
 
+interpret :: Instruction -> Machine -> Machine
+interpret (HLF p) m = m { pointer = m.pointer + 1, register = Map.adjust (`div` 2) p m.register }
+interpret (TPL p) m = m { pointer = m.pointer + 1, register = Map.adjust (* 3) p m.register }
+interpret (INC p) m = m { pointer = m.pointer + 1, register = Map.adjust (+ 1) p m.register }
+interpret (JMP n) m = m { pointer = m.pointer + n }
+interpret (JIE p i) m = m { pointer = if even (m.register Map.! p) then m.pointer + i else m.pointer + 1 }
+interpret (JIO p i) m = m { pointer = if (m.register Map.! p) == 1 then m.pointer + i else m.pointer + 1 }
 
-interpretReg :: Registry -> Reg2 -> Int
-interpretReg _ (In int) = int
-interpretReg m (Re reg) = Map.findWithDefault 0 reg m
-  
-regParser :: Parser Reg2
-regParser = (In <$> signedInteger) <|> (Re <$> anySingle)
-
-inputParser :: Parser RegIns
-inputParser =
-      (Set <$> (string "set " >> anySingle) <*> (space >> regParser))
-  <|> (Sub <$> (string "sub " >> anySingle) <*> (space >> regParser))
-  <|> (Mul <$> (string "mul " >> anySingle) <*> (space >> regParser))
-  <|> (Jnz <$> (string "jnz " >> regParser) <*> (space >> regParser))
-
-b :: [Int]
-b = takeWhile (<= 106700 + 17000) $ iterate (+ 17) 106700
-
-prime :: [Int]
-prime = f [2..]
+inputParser :: String -> Instruction
+inputParser s = case x of
+  "hlf" -> HLF $ (\case ; "a" -> A ; _ -> B) $ head xs
+  "tpl" -> TPL $ (\case ; "a" -> A ; _ -> B) $ head xs
+  "inc" -> INC $ (\case ; "a" -> A ; _ -> B) $ head xs
+  "jmp" -> let y : ys = head xs in JMP $ if y == '-' then negate (read ys) else read ys
+  "jie" -> let (y : _) : (z : zs) : _ = xs in JIE (if y == 'a' then A else B) $ if z == '-' then negate (read zs) else read zs
+  "jio" -> let (y : _) : (z : zs) : _ = xs in JIO (if y == 'a' then A else B) $ if z == '-' then negate (read zs) else read zs
   where
-    f (x : xs) = x : filter ((/= 0) . (`mod` x)) (f xs)
-
-isPrime :: Int -> Bool
-isPrime k = k > 1 && null [ x | x <- [2..isqrt k], k `mod` x == 0]
-
-isqrt :: Int -> Int
-isqrt = floor . sqrt . fromIntegral
-
-day23b = filter (not . isPrime) b
+    x : xs = words s
 
 day23 :: IO ()
 day23 = do
-  ins <- map (fromJust . parseMaybe inputParser) . lines <$> readFile "input23.txt"
-  putStrLn ("day23a: " ++ show (run $ runState playera $ runLabelled @0 $ runPlayer @0 ins))
-  putStrLn ("day23b: " ++ show (length day23b))
+  input <- Vector.fromList . map inputParser . lines <$> readFile "input23.txt"
+  let initMachine = M 0 (Map.fromList [(A, 0), (B, 0)]) input
+      initMachine2 = M 0 (Map.fromList [(A, 1), (B, 0)]) input
+  putStrLn $ ("day22a: " ++) $ show $ run initMachine
+  putStrLn $ ("day22b: " ++) $ show $ run initMachine2
