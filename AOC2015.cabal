@@ -39,7 +39,10 @@ common shared
         lens,
         unordered-containers,
         hashable,
-        random
+        random,
+        cryptohash,
+        cryptohash-md5,
+        bytestring
     default-extensions: TypeFamilies, OverloadedRecordDot, TypeApplications, DataKinds, LambdaCase
     ghc-options: -O2
 
