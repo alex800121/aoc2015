@@ -298,12 +298,10 @@ primeFactors a = f a primes []
 primeFactors' :: (Integral a) => a -> [(Int, a)]
 primeFactors' = map ((,) <$> length <*> head) . group . primeFactors
 
-factors :: (Integral a) => a -> [a]
-factors x =
-  let p = primeFactors' x
-      f [] = [1]
-      f ((n, a) : xs) = (*) <$> map (a ^) [0 .. n] <*> f xs
-   in f p
+factors :: Integral a => a -> [a]
+factors x = nub $ concat $ [[a, b] | a <- [1 .. y], let (b, m) = x `divMod` a, m == 0]
+  where
+    y = sqrtCeiling x
 
 sqrtCeiling :: (Integral a) => a -> a
 sqrtCeiling = ceiling . sqrt . fromIntegral
