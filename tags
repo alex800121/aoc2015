@@ -98,6 +98,7 @@ Blowfish128	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypt
 Blowfish256	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Blowfish.hs	35;"	t
 Blowfish448	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Blowfish.hs	39;"	t
 Blowfish64	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Blowfish.hs	27;"	t
+Boss	/home/alex800121/haskell/aoc/2015/src/Day22.hs	45;"	t
 Box	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Blowfish/Box.hs	7;"	m
 Branch	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	53;"	C
 Branch	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	53;"	C
@@ -272,7 +273,7 @@ Day20	/home/alex800121/haskell/aoc/2015/src/Day20.hs	1;"	m
 Day20	/home/alex800121/haskell/aoc/2017/src/Day20.hs	1;"	m
 Day21	/home/alex800121/haskell/aoc/2015/src/Day21.hs	3;"	m
 Day21	/home/alex800121/haskell/aoc/2017/src/Day21.hs	1;"	m
-Day22	/home/alex800121/haskell/aoc/2015/src/Day22.hs	1;"	m
+Day22	/home/alex800121/haskell/aoc/2015/src/Day22.hs	6;"	m
 Day22	/home/alex800121/haskell/aoc/2017/src/Day22.hs	1;"	m
 Day23	/home/alex800121/haskell/aoc/2015/src/Day23.hs	1;"	m
 Day23	/home/alex800121/haskell/aoc/2017/src/Day23.hs	1;"	m
@@ -306,6 +307,7 @@ Digest	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite
 Direction	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	69;"	t
 Direction	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	69;"	t
 Div8	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Internal/Nat.hs	55;"	F
+Drain	/home/alex800121/haskell/aoc/2015/src/Day22.hs	20;"	C
 ECBUnit	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	240;"	t
 ECC	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC.hs	15;"	m
 ECC	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/ECC.hs	4;"	m
@@ -322,6 +324,7 @@ Ed448	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-
 EdDSA	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/EdDSA.hs	26;"	m
 Edwards25519	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC/Edwards25519.hs	53;"	m
 Edwards25519	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/ECC/Edwards25519.hs	2;"	m
+Effect	/home/alex800121/haskell/aoc/2015/src/Day22.hs	23;"	t
 ElGamal	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ElGamal.hs	15;"	m
 Elem	/home/alex800121/haskell/aoc/2017/src/Day9.hs	13;"	t
 EllipticCurve	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC.hs	59;"	c
@@ -347,7 +350,9 @@ F2m	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.
 F2m	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/Number/F2m.hs	1;"	m
 Format	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Data/Padding.hs	21;"	t
 FourSteps	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/OTP.hs	125;"	C
+G	/home/alex800121/haskell/aoc/2015/src/Day22.hs	31;"	C
 GF	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Types/GF.hs	10;"	m
+GameState	/home/alex800121/haskell/aoc/2015/src/Day22.hs	31;"	t
 Gar	/home/alex800121/haskell/aoc/2017/src/Day9.hs	13;"	C
 Garbage	/home/alex800121/haskell/aoc/2017/src/Day9.hs	19;"	t
 GenTopPolicy	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/Generate.hs	28;"	t
@@ -398,6 +403,7 @@ Index	/home/alex800121/haskell/aoc/2017/src/Day14.hs	11;"	t
 Ingredient	/home/alex800121/haskell/aoc/2015/src/Day15.hs	6;"	t
 Ins	/home/alex800121/haskell/aoc/2015/src/Day6.hs	27;"	t
 InsType	/home/alex800121/haskell/aoc/2015/src/Day6.hs	25;"	t
+Instant	/home/alex800121/haskell/aoc/2015/src/Day22.hs	18;"	t
 Instruction	/home/alex800121/haskell/aoc/2017/src/Day18.hs	17;"	t
 Int0_2901	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/Utils.hs	45;"	t
 Int1_2901	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/Utils.hs	48;"	t
@@ -526,6 +532,7 @@ MessageNotRecognized	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147
 MessageSizeIncorrect	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/RSA/Types.hs	33;"	C
 MessageTooLong	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/RSA/Types.hs	34;"	C
 MessageTooLong	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/Rabin/Types.hs	20;"	C
+Missile	/home/alex800121/haskell/aoc/2015/src/Day22.hs	19;"	C
 MiyaguchiPreneel	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ConstructHash/MiyaguchiPreneel.hs	26;"	t
 MiyaguchiPreneel	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ConstructHash/MiyaguchiPreneel.hs	12;"	m
 Mod	/home/alex800121/haskell/aoc/2017/src/Day18.hs	22;"	C
@@ -637,6 +644,7 @@ Pipe	/home/alex800121/haskell/aoc/2017/src/Day12.hs	12;"	t
 Plaintext	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	229;"	t
 PlaintextBS	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	233;"	t
 Player	/home/alex800121/haskell/aoc/2015/src/Day21.hs	25;"	t
+Player	/home/alex800121/haskell/aoc/2015/src/Day22.hs	39;"	t
 Point	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC/Edwards25519.hs	106;"	t
 Point	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC/Simple/Types.hs	105;"	t
 Point	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/P256.hs	68;"	t
@@ -644,6 +652,7 @@ Point	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-
 Point	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC.hs	61;"	F
 PointO	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC/Simple/Types.hs	107;"	C
 PointO	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/Types.hs	46;"	C
+Poison	/home/alex800121/haskell/aoc/2015/src/Day22.hs	25;"	C
 Poly1305	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/MAC/Poly1305.hs	13;"	m
 Poly1305	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/Poly1305.hs	2;"	m
 Polyval	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/AESGCMSIV.hs	67;"	t
@@ -691,6 +700,7 @@ PublicNumber	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryp
 PublicNumber	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/DSA.hs	44;"	t
 PublicPoint	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/Types.hs	39;"	t
 Q	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/CAST5/Primitive.hs	36;"	t
+Q	/home/alex800121/haskell/aoc/2015/src/Day22.hs	57;"	t
 Q	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/MAC/CMAC.hs	107;"	C
 QAInteger	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/Utils.hs	58;"	t
 R	/home/alex800121/haskell/aoc/2015/src/Day7.hs	19;"	C
@@ -711,6 +721,7 @@ RandomVector	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryp
 Range	/home/alex800121/haskell/aoc/2015/src/Day6.hs	23;"	t
 Rcv	/home/alex800121/haskell/aoc/2017/src/Day18.hs	23;"	C
 Received	/home/alex800121/haskell/aoc/2015/src/Day16.hs	18;"	t
+Recharge	/home/alex800121/haskell/aoc/2015/src/Day22.hs	26;"	C
 Reg	/home/alex800121/haskell/aoc/2015/src/Day7.hs	15;"	t
 Reindeer	/home/alex800121/haskell/aoc/2015/src/Day14.hs	5;"	t
 Replace	/home/alex800121/haskell/aoc/2015/src/Day19.hs	26;"	t
@@ -843,6 +854,7 @@ SetHighest	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypto
 SetTwoHighest	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/Generate.hs	30;"	C
 SharedKey	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/DH.hs	50;"	t
 SharedSecret	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC.hs	56;"	t
+Shield	/home/alex800121/haskell/aoc/2015/src/Day22.hs	24;"	C
 Signature	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/DSA.hs	60;"	t
 Signature	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/ECDSA.hs	34;"	t
 Signature	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECDSA.hs	69;"	t
@@ -867,6 +879,7 @@ Snd	/home/alex800121/haskell/aoc/2017/src/Day18.hs	18;"	C
 Source	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Random/Entropy/Source.hs	8;"	m
 South	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	69;"	C
 South	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	69;"	C
+Spell	/home/alex800121/haskell/aoc/2015/src/Day22.hs	29;"	t
 St	/home/alex800121/haskell/aoc/2015/src/Day12.hs	9;"	C
 St	/home/alex800121/haskell/aoc/2015/src/Day19.hs	43;"	C
 StF	/home/alex800121/haskell/aoc/2015/src/Day19.hs	34;"	C
@@ -960,22 +973,30 @@ Z	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	316;"	C
 ZERO	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Data/Padding.hs	24;"	C
 Zero	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Twofish/Primitive.hs	204;"	C
 _armor	/home/alex800121/haskell/aoc/2015/src/Day21.hs	29;"	f
+_boss	/home/alex800121/haskell/aoc/2015/src/Day22.hs	34;"	f
+_bossHp	/home/alex800121/haskell/aoc/2015/src/Day22.hs	46;"	f
 _children	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	53;"	f
 _children	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	53;"	f
 _content	/home/alex800121/haskell/aoc/2015/src/Day19.hs	44;"	f
 _contentf	/home/alex800121/haskell/aoc/2015/src/Day19.hs	35;"	f
 _damage	/home/alex800121/haskell/aoc/2015/src/Day21.hs	28;"	f
+_damage	/home/alex800121/haskell/aoc/2015/src/Day22.hs	47;"	f
+_effects	/home/alex800121/haskell/aoc/2015/src/Day22.hs	35;"	f
 _focus	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	168;"	f
 _focus	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	168;"	f
 _hp	/home/alex800121/haskell/aoc/2015/src/Day21.hs	27;"	f
 _list	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	168;"	f
 _list	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	168;"	f
 _m	/home/alex800121/haskell/aoc/2017/src/Day18.hs	90;"	f
+_manna	/home/alex800121/haskell/aoc/2015/src/Day22.hs	41;"	f
+_player	/home/alex800121/haskell/aoc/2015/src/Day22.hs	33;"	f
+_playerHp	/home/alex800121/haskell/aoc/2015/src/Day22.hs	40;"	f
 _pos	/home/alex800121/haskell/aoc/2017/src/Day18.hs	89;"	f
 _pw	/home/alex800121/haskell/aoc/2015/src/Day11.hs	10;"	f
 _role	/home/alex800121/haskell/aoc/2015/src/Day21.hs	26;"	f
 _st	/home/alex800121/haskell/aoc/2015/src/Day19.hs	43;"	f
 _stf	/home/alex800121/haskell/aoc/2015/src/Day19.hs	34;"	f
+_turn	/home/alex800121/haskell/aoc/2015/src/Day22.hs	32;"	f
 _value	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	53;"	f
 _value	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	53;"	f
 a	/home/alex800121/haskell/aoc/2017/src/Day15.hs	6;"	f
@@ -1014,6 +1035,7 @@ alicePrivate	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryp
 alicePublic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/KAT_Curve25519.hs	10;"	f
 alicePublic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/KAT_Curve448.hs	10;"	f
 allHashs	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptohash-0.11.9/Bench/Bench.hs	23;"	f
+allSpells	/home/alex800121/haskell/aoc/2015/src/Day22.hs	75;"	f
 allocArray32AndFreeze	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Internal/WordArray.hs	73;"	f
 allocTemp	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/P256.hs	344;"	f
 allocTempScrubbed	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/P256.hs	350;"	f
@@ -1096,6 +1118,7 @@ bobPrivate	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypto
 bobPublic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/KAT_Curve25519.hs	12;"	f
 bobPublic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/KAT_Curve448.hs	12;"	f
 booleanPrim	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Internal/CompatPrim.hs	104;"	f
+bossTurn	/home/alex800121/haskell/aoc/2015/src/Day22.hs	100;"	f
 bs	/home/alex800121/haskell/aoc/2017/src/Day15.hs	28;"	f
 bs'	/home/alex800121/haskell/aoc/2017/src/Day15.hs	34;"	f
 bsCMAC	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/KAT_CMAC.hs	63;"	f
@@ -1269,6 +1292,7 @@ calculatePublic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/c
 calculatePublic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/DSA.hs	110;"	f
 calculatePublic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/DH.hs	36;"	f
 cases	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/Padding.hs	9;"	f
+castSpell	/home/alex800121/haskell/aoc/2015/src/Day22.hs	84;"	f
 cast_dec	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/CAST5/Primitive.hs	98;"	f
 cast_enc	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/CAST5/Primitive.hs	67;"	f
 catchIO	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	25;"	f
@@ -1467,9 +1491,9 @@ day20	/home/alex800121/haskell/aoc/2015/src/Day20.hs	13;"	f
 day20	/home/alex800121/haskell/aoc/2017/src/Day20.hs	3;"	f
 day21	/home/alex800121/haskell/aoc/2015/src/Day21.hs	45;"	f
 day21	/home/alex800121/haskell/aoc/2017/src/Day21.hs	3;"	f
-day22	/home/alex800121/haskell/aoc/2015/src/Day22.hs	3;"	f
+day22	/home/alex800121/haskell/aoc/2015/src/Day22.hs	133;"	f
 day22	/home/alex800121/haskell/aoc/2017/src/Day22.hs	3;"	f
-day23	/home/alex800121/haskell/aoc/2015/src/Day23.hs	3;"	f
+day23	/home/alex800121/haskell/aoc/2015/src/Day23.hs	4;"	f
 day23	/home/alex800121/haskell/aoc/2017/src/Day23.hs	3;"	f
 day24	/home/alex800121/haskell/aoc/2015/src/Day24.hs	3;"	f
 day24	/home/alex800121/haskell/aoc/2017/src/Day24.hs	3;"	f
@@ -1564,6 +1588,7 @@ digestToByteString	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-14797
 digestToByteStringWitness	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptohash-0.11.9/Crypto/Hash/Internal.hs	36;"	f
 digestToHexByteString	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptohash-0.11.9/Crypto/Hash.hs	93;"	f
 digitsPower	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/OTP.hs	114;"	f
+dijkstra	/home/alex800121/haskell/aoc/2015/src/Day22.hs	117;"	f
 disallowed	/home/alex800121/haskell/aoc/2015/src/Day5.hs	13;"	f
 distance	/home/alex800121/haskell/aoc/2015/src/Day14.hs	13;"	f
 divF2m	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/F2m.hs	164;"	f
@@ -2103,13 +2128,17 @@ init3DES	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptoni
 initAES	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/AES/Primitive.hs	189;"	f
 initArray	/home/alex800121/haskell/aoc/2015/src/Day6.hs	31;"	f
 initBlowfish	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Blowfish/Primitive.hs	49;"	f
+initBoss	/home/alex800121/haskell/aoc/2015/src/Day22.hs	59;"	f
 initCAST5	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/CAST5.hs	32;"	f
 initCamellia	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Camellia/Primitive.hs	142;"	f
 initDES	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/DES.hs	34;"	f
+initGameState	/home/alex800121/haskell/aoc/2015/src/Day22.hs	63;"	f
 initList	/home/alex800121/haskell/aoc/2017/src/Day10.hs	18;"	f
+initPlayer	/home/alex800121/haskell/aoc/2015/src/Day22.hs	61;"	f
 initPos	/home/alex800121/haskell/aoc/2015/src/Day3.hs	8;"	f
 initPos	/home/alex800121/haskell/aoc/2017/src/Day16.hs	16;"	f
 initPos'	/home/alex800121/haskell/aoc/2017/src/Day16.hs	18;"	f
+initQ	/home/alex800121/haskell/aoc/2015/src/Day22.hs	65;"	f
 initRange	/home/alex800121/haskell/aoc/2015/src/Day6.hs	34;"	f
 initSeq	/home/alex800121/haskell/aoc/2017/src/Day17.hs	10;"	f
 initTwofish	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Twofish/Primitive.hs	49;"	f
@@ -2647,12 +2676,14 @@ rdrandGetBytes	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cr
 rdrandGrab	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Random/Entropy/RDRand.hs	32;"	f
 readASCII	/home/alex800121/haskell/aoc/2015/src/Day8.hs	22;"	f
 readArg	/home/alex800121/haskell/aoc/2017/src/Day18.hs	27;"	f
+readEffect	/home/alex800121/haskell/aoc/2015/src/Day22.hs	108;"	f
 readHex	/home/alex800121/haskell/aoc/2015/src/Day8.hs	17;"	f
 readInput	/home/alex800121/haskell/aoc/2017/src/Day12.hs	14;"	f
 readInput	/home/alex800121/haskell/aoc/2017/src/Day7.hs	17;"	f
 readIns	/home/alex800121/haskell/aoc/2015/src/Day6.hs	51;"	f
 readIns	/home/alex800121/haskell/aoc/2017/src/Day16.hs	27;"	f
 readIns	/home/alex800121/haskell/aoc/2017/src/Day18.hs	30;"	f
+readInstant	/home/alex800121/haskell/aoc/2015/src/Day22.hs	113;"	f
 readQuote	/home/alex800121/haskell/aoc/2015/src/Day8.hs	14;"	f
 readRule	/home/alex800121/haskell/aoc/2017/src/Day8.hs	9;"	f
 readSlash	/home/alex800121/haskell/aoc/2015/src/Day8.hs	11;"	f
@@ -2870,6 +2901,7 @@ skein256Hash	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryp
 skein512Hash	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptohash-0.11.9/Tests/KAT.hs	66;"	f
 smallScalar	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/ECC/Edwards25519.hs	14;"	f
 solve	/home/alex800121/haskell/aoc/2015/src/Day7.hs	22;"	f
+spellEffect	/home/alex800121/haskell/aoc/2015/src/Day22.hs	100;"	f
 split	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Data/AFIS.hs	53;"	f
 splitB	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptohash-0.11.9/Tests/KAT.hs	160;"	f
 splitB	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/Utils.hs	109;"	f
@@ -2938,6 +2970,7 @@ testBlockCipher	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/c
 testBlockCipherAEAD	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	393;"	f
 testBlockCipherBasic	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	355;"	f
 testBlockCipherModes	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	363;"	f
+testGameState	/home/alex800121/haskell/aoc/2015/src/Day22.hs	132;"	f
 testIvArith	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	449;"	f
 testKATs	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	154;"	f
 testModes	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/BlockCipher.hs	441;"	f
