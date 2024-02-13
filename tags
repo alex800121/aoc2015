@@ -401,6 +401,7 @@ Index	/home/alex800121/haskell/aoc/2015/src/Day6.hs	21;"	t
 Index	/home/alex800121/haskell/aoc/2017/src/Day11.hs	8;"	t
 Index	/home/alex800121/haskell/aoc/2017/src/Day14.hs	11;"	t
 Ingredient	/home/alex800121/haskell/aoc/2015/src/Day15.hs	6;"	t
+Ins	/home/alex800121/haskell/aoc/2015/src/Day23.hs	11;"	t
 Ins	/home/alex800121/haskell/aoc/2015/src/Day6.hs	27;"	t
 InsType	/home/alex800121/haskell/aoc/2015/src/Day6.hs	25;"	t
 Instant	/home/alex800121/haskell/aoc/2015/src/Day22.hs	18;"	t
@@ -731,6 +732,7 @@ RnYArF	/home/alex800121/haskell/aoc/2015/src/Day19.hs	35;"	C
 Road	/home/alex800121/haskell/aoc/2015/src/Day9.hs	14;"	t
 Rotation	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/DES/Primitive.hs	26;"	t
 Rule	/home/alex800121/haskell/aoc/2015/src/Day13.hs	10;"	t
+S	/home/alex800121/haskell/aoc/2015/src/Day23.hs	9;"	t
 S	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	314;"	C
 S	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	316;"	C
 SEC_p112r1	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC/Simple/Types.hs	114;"	t
@@ -1493,7 +1495,7 @@ day21	/home/alex800121/haskell/aoc/2015/src/Day21.hs	45;"	f
 day21	/home/alex800121/haskell/aoc/2017/src/Day21.hs	3;"	f
 day22	/home/alex800121/haskell/aoc/2015/src/Day22.hs	133;"	f
 day22	/home/alex800121/haskell/aoc/2017/src/Day22.hs	3;"	f
-day23	/home/alex800121/haskell/aoc/2015/src/Day23.hs	4;"	f
+day23	/home/alex800121/haskell/aoc/2015/src/Day23.hs	21;"	f
 day23	/home/alex800121/haskell/aoc/2017/src/Day23.hs	3;"	f
 day24	/home/alex800121/haskell/aoc/2015/src/Day24.hs	3;"	f
 day24	/home/alex800121/haskell/aoc/2017/src/Day24.hs	3;"	f
@@ -2680,6 +2682,7 @@ readEffect	/home/alex800121/haskell/aoc/2015/src/Day22.hs	108;"	f
 readHex	/home/alex800121/haskell/aoc/2015/src/Day8.hs	17;"	f
 readInput	/home/alex800121/haskell/aoc/2017/src/Day12.hs	14;"	f
 readInput	/home/alex800121/haskell/aoc/2017/src/Day7.hs	17;"	f
+readIns	/home/alex800121/haskell/aoc/2015/src/Day23.hs	13;"	f
 readIns	/home/alex800121/haskell/aoc/2015/src/Day6.hs	51;"	f
 readIns	/home/alex800121/haskell/aoc/2017/src/Day16.hs	27;"	f
 readIns	/home/alex800121/haskell/aoc/2017/src/Day18.hs	30;"	f
