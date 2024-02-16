@@ -401,7 +401,7 @@ Index	/home/alex800121/haskell/aoc/2015/src/Day6.hs	21;"	t
 Index	/home/alex800121/haskell/aoc/2017/src/Day11.hs	8;"	t
 Index	/home/alex800121/haskell/aoc/2017/src/Day14.hs	11;"	t
 Ingredient	/home/alex800121/haskell/aoc/2015/src/Day15.hs	6;"	t
-Ins	/home/alex800121/haskell/aoc/2015/src/Day23.hs	11;"	t
+Ins	/home/alex800121/haskell/aoc/2015/src/Day23.hs	13;"	t
 Ins	/home/alex800121/haskell/aoc/2015/src/Day6.hs	27;"	t
 InsType	/home/alex800121/haskell/aoc/2015/src/Day6.hs	25;"	t
 Instant	/home/alex800121/haskell/aoc/2015/src/Day22.hs	18;"	t
@@ -618,6 +618,7 @@ PSSParams	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypton
 PW	/home/alex800121/haskell/aoc/2015/src/Day11.hs	10;"	t
 PackageInfo_AOC2015	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/PackageInfo_AOC2015.hs	4;"	m
 PackageInfo_AOC2015	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2015.hs	4;"	m
+PackageInfo_AOC2015	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2015.hs	4;"	m
 PackageInfo_AOC2017	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/PackageInfo_AOC2017.hs	4;"	m
 PackageInfo_AOC2017	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/PackageInfo_AOC2017.hs	4;"	m
 PackageInfo_AOC2017	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2017.hs	4;"	m
@@ -636,6 +637,7 @@ Parser	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	101;"	t
 Pass	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/KDF/Argon2.hs	131;"	t
 Paths_AOC2015	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	8;"	m
 Paths_AOC2015	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	8;"	m
+Paths_AOC2015	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	8;"	m
 Paths_AOC2017	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	8;"	m
 Paths_AOC2017	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	8;"	m
 Paths_AOC2017	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2017.hs	8;"	m
@@ -732,7 +734,7 @@ RnYArF	/home/alex800121/haskell/aoc/2015/src/Day19.hs	35;"	C
 Road	/home/alex800121/haskell/aoc/2015/src/Day9.hs	14;"	t
 Rotation	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/DES/Primitive.hs	26;"	t
 Rule	/home/alex800121/haskell/aoc/2015/src/Day13.hs	10;"	t
-S	/home/alex800121/haskell/aoc/2015/src/Day23.hs	9;"	t
+S	/home/alex800121/haskell/aoc/2015/src/Day23.hs	11;"	t
 S	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	314;"	C
 S	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	316;"	C
 SEC_p112r1	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/ECC/Simple/Types.hs	114;"	t
@@ -1106,6 +1108,7 @@ benchPBKDF2	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypt
 benchSquare	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/benchs/Number/F2m.hs	33;"	f
 bindir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	48;"	f
 bindir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
+bindir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
 bindir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	48;"	f
 bindir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	48;"	f
 bindir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	48;"	f
@@ -1299,6 +1302,7 @@ cast_dec	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptoni
 cast_enc	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/CAST5/Primitive.hs	67;"	f
 catchIO	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	25;"	f
 catchIO	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	25;"	f
+catchIO	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	25;"	f
 catchIO	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	25;"	f
 catchIO	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	25;"	f
 catchIO	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	25;"	f
@@ -1400,6 +1404,7 @@ convert4To32	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryp
 copyKeySchedule	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Blowfish/Box.hs	22;"	f
 copyright	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/PackageInfo_AOC2015.hs	22;"	f
 copyright	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2015.hs	22;"	f
+copyright	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2015.hs	22;"	f
 copyright	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/PackageInfo_cryptonite.hs	22;"	f
 copyright	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/PackageInfo_AOC2017.hs	22;"	f
 copyright	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/PackageInfo_AOC2017.hs	22;"	f
@@ -1455,6 +1460,7 @@ dP	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.3
 dQ	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/tests/KAT_PubKey/RSA.hs	21;"	f
 datadir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	48;"	f
 datadir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
+datadir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
 datadir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	48;"	f
 datadir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	48;"	f
 datadir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	48;"	f
@@ -1495,11 +1501,11 @@ day21	/home/alex800121/haskell/aoc/2015/src/Day21.hs	45;"	f
 day21	/home/alex800121/haskell/aoc/2017/src/Day21.hs	3;"	f
 day22	/home/alex800121/haskell/aoc/2015/src/Day22.hs	133;"	f
 day22	/home/alex800121/haskell/aoc/2017/src/Day22.hs	3;"	f
-day23	/home/alex800121/haskell/aoc/2015/src/Day23.hs	21;"	f
+day23	/home/alex800121/haskell/aoc/2015/src/Day23.hs	29;"	f
 day23	/home/alex800121/haskell/aoc/2017/src/Day23.hs	3;"	f
-day24	/home/alex800121/haskell/aoc/2015/src/Day24.hs	3;"	f
+day24	/home/alex800121/haskell/aoc/2015/src/Day24.hs	22;"	f
 day24	/home/alex800121/haskell/aoc/2017/src/Day24.hs	3;"	f
-day25	/home/alex800121/haskell/aoc/2015/src/Day25.hs	3;"	f
+day25	/home/alex800121/haskell/aoc/2015/src/Day25.hs	12;"	f
 day25	/home/alex800121/haskell/aoc/2017/src/Day25.hs	3;"	f
 day2b	/home/alex800121/haskell/aoc/2017/src/Day2.hs	6;"	f
 day3	/home/alex800121/haskell/aoc/2015/src/Day3.hs	18;"	f
@@ -1662,6 +1668,7 @@ dsaTruncHash	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryp
 dsaTruncHashDigest	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/Internal.hs	39;"	f
 dynlibdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	48;"	f
 dynlibdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
+dynlibdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
 dynlibdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	48;"	f
 dynlibdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	48;"	f
 dynlibdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	48;"	f
@@ -1909,6 +1916,7 @@ generateSimple	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cr
 generateWith	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/RSA.hs	55;"	f
 getBinDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	43;"	f
 getBinDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
+getBinDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
 getBinDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	43;"	f
 getBinDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	43;"	f
 getBinDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	43;"	f
@@ -1917,6 +1925,7 @@ getBinDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc
 getCurveByName	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/PubKey/ECC/Types.hs	171;"	f
 getDataDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	43;"	f
 getDataDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
+getDataDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
 getDataDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	43;"	f
 getDataDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	43;"	f
 getDataDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	43;"	f
@@ -1924,6 +1933,7 @@ getDataDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/gh
 getDataDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2017.hs	43;"	f
 getDataFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	38;"	f
 getDataFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	38;"	f
+getDataFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	38;"	f
 getDataFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	38;"	f
 getDataFileName	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	38;"	f
 getDataFileName	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	38;"	f
@@ -1936,6 +1946,7 @@ getDigest512	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryp
 getDistance	/home/alex800121/haskell/aoc/2015/src/Day9.hs	23;"	f
 getDynLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	43;"	f
 getDynLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
+getDynLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
 getDynLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	43;"	f
 getDynLibDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	43;"	f
 getDynLibDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	43;"	f
@@ -1951,6 +1962,7 @@ getKeyKe	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptoni
 getKeyKw	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Camellia/Primitive.hs	220;"	f
 getLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	43;"	f
 getLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
+getLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
 getLibDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	43;"	f
 getLibDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	43;"	f
 getLibDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	43;"	f
@@ -1958,6 +1970,7 @@ getLibDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc
 getLibDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2017.hs	43;"	f
 getLibexecDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	43;"	f
 getLibexecDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
+getLibexecDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
 getLibexecDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	43;"	f
 getLibexecDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	43;"	f
 getLibexecDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	43;"	f
@@ -1970,6 +1983,7 @@ getShared	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypton
 getSs	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/AESGCMSIV.hs	159;"	f
 getSysconfDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	43;"	f
 getSysconfDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
+getSysconfDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	43;"	f
 getSysconfDir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	43;"	f
 getSysconfDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	43;"	f
 getSysconfDir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	43;"	f
@@ -1992,6 +2006,8 @@ gmpPowModSecInteger	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-1479
 gmpSizeInBits	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/Compat.hs	138;"	f
 gmpSizeInBytes	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/Compat.hs	130;"	f
 gmpTestPrimeMillerRabin	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/Compat.hs	117;"	f
+go	/home/alex800121/haskell/aoc/2015/src/Day23.hs	27;"	f
+go	/home/alex800121/haskell/aoc/2015/src/Day25.hs	5;"	f
 groupParser	/home/alex800121/haskell/aoc/2017/src/Day9.hs	25;"	f
 groupPipe	/home/alex800121/haskell/aoc/2017/src/Day12.hs	20;"	f
 h	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/Twofish/Primitive.hs	255;"	f
@@ -2084,6 +2100,7 @@ hmacLazy	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptoni
 hmacUpdate	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptohash-0.11.9/Crypto/MAC.hs	63;"	f
 homepage	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/PackageInfo_AOC2015.hs	24;"	f
 homepage	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2015.hs	24;"	f
+homepage	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2015.hs	24;"	f
 homepage	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/PackageInfo_cryptonite.hs	24;"	f
 homepage	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/PackageInfo_AOC2017.hs	24;"	f
 homepage	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/PackageInfo_AOC2017.hs	24;"	f
@@ -2161,6 +2178,7 @@ initializeWords	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/c
 input	/home/alex800121/haskell/aoc/2015/src/Day10.hs	5;"	f
 input	/home/alex800121/haskell/aoc/2015/src/Day11.hs	28;"	f
 input	/home/alex800121/haskell/aoc/2015/src/Day20.hs	6;"	f
+input	/home/alex800121/haskell/aoc/2015/src/Day25.hs	3;"	f
 input	/home/alex800121/haskell/aoc/2015/src/Day4.hs	14;"	f
 input	/home/alex800121/haskell/aoc/2017/src/Day10.hs	16;"	f
 input	/home/alex800121/haskell/aoc/2017/src/Day14.hs	13;"	f
@@ -2184,6 +2202,7 @@ isCoprime	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypton
 isDivisibleBy8	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/Nat.hs	46;"	f
 isPathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	76;"	f
 isPathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	76;"	f
+isPathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	76;"	f
 isPathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	76;"	f
 isPathSeparator	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	76;"	f
 isPathSeparator	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	76;"	f
@@ -2205,6 +2224,7 @@ ivToPtr	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonit
 jacobi	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Number/ModArithmetic.hs	107;"	f
 joinFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	65;"	f
 joinFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	65;"	f
+joinFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	65;"	f
 joinFileName	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	65;"	f
 joinFileName	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	65;"	f
 joinFileName	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	65;"	f
@@ -2280,6 +2300,7 @@ leftEncode	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/crypto
 lengthInvalid	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Cipher/AESGCMSIV.hs	116;"	f
 libdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	48;"	f
 libdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
+libdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
 libdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	48;"	f
 libdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	48;"	f
 libdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	48;"	f
@@ -2287,6 +2308,7 @@ libdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.
 libdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2017.hs	48;"	f
 libexecdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	48;"	f
 libexecdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
+libexecdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
 libexecdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	48;"	f
 libexecdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	48;"	f
 libexecdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	48;"	f
@@ -2400,6 +2422,7 @@ n	/home/alex800121/haskell/aoc/2017/src/Day16.hs	22;"	f
 n'	/home/alex800121/haskell/aoc/2017/src/Day15.hs	30;"	f
 name	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/PackageInfo_AOC2015.hs	15;"	f
 name	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2015.hs	15;"	f
+name	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2015.hs	15;"	f
 name	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/PackageInfo_cryptonite.hs	15;"	f
 name	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/PackageInfo_AOC2017.hs	15;"	f
 name	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/PackageInfo_AOC2017.hs	15;"	f
@@ -2521,6 +2544,7 @@ parseWord	/home/alex800121/haskell/aoc/2015/src/Day7.hs	38;"	f
 pass	/home/alex800121/haskell/aoc/2015/src/Day11.hs	30;"	f
 pathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	73;"	f
 pathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	73;"	f
+pathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	73;"	f
 pathSeparator	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	73;"	f
 pathSeparator	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	73;"	f
 pathSeparator	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	73;"	f
@@ -2682,7 +2706,7 @@ readEffect	/home/alex800121/haskell/aoc/2015/src/Day22.hs	108;"	f
 readHex	/home/alex800121/haskell/aoc/2015/src/Day8.hs	17;"	f
 readInput	/home/alex800121/haskell/aoc/2017/src/Day12.hs	14;"	f
 readInput	/home/alex800121/haskell/aoc/2017/src/Day7.hs	17;"	f
-readIns	/home/alex800121/haskell/aoc/2015/src/Day23.hs	13;"	f
+readIns	/home/alex800121/haskell/aoc/2015/src/Day23.hs	15;"	f
 readIns	/home/alex800121/haskell/aoc/2015/src/Day6.hs	51;"	f
 readIns	/home/alex800121/haskell/aoc/2017/src/Day16.hs	27;"	f
 readIns	/home/alex800121/haskell/aoc/2017/src/Day18.hs	30;"	f
@@ -2946,12 +2970,14 @@ subtractEucVecs	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	404;"	f
 subtractEucVecs	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	406;"	f
 subtractEucVecs'	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	401;"	f
 subtractEucVecs'	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	403;"	f
+sumV	/home/alex800121/haskell/aoc/2015/src/Day24.hs	13;"	f
 sumVariants	/home/alex800121/haskell/aoc/2015/src/MyLib.hs	279;"	f
 sumVariants	/home/alex800121/haskell/aoc/2017/src/MyLib.hs	279;"	f
 supportedBackends	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/Random/Entropy/Backend.hs	30;"	f
 surrounding	/home/alex800121/haskell/aoc/2015/src/Day18.hs	13;"	f
 synopsis	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/PackageInfo_AOC2015.hs	20;"	f
 synopsis	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2015.hs	20;"	f
+synopsis	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2015.hs	20;"	f
 synopsis	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/PackageInfo_cryptonite.hs	20;"	f
 synopsis	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/PackageInfo_AOC2017.hs	20;"	f
 synopsis	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/PackageInfo_AOC2017.hs	20;"	f
@@ -2959,6 +2985,7 @@ synopsis	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-
 synopsis	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2017.hs	20;"	f
 sysconfdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	48;"	f
 sysconfdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
+sysconfdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	48;"	f
 sysconfdir	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	48;"	f
 sysconfdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/build/autogen/Paths_AOC2017.hs	48;"	f
 sysconfdir	/home/alex800121/haskell/aoc/2017/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2017-0.1.0.0/opt/build/autogen/Paths_AOC2017.hs	48;"	f
@@ -3298,6 +3325,8 @@ version	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9
 version	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/build/autogen/Paths_AOC2015.hs	35;"	f
 version	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/PackageInfo_AOC2015.hs	17;"	f
 version	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/build/AOC2023/autogen/Paths_AOC2015.hs	35;"	f
+version	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/PackageInfo_AOC2015.hs	17;"	f
+version	/home/alex800121/haskell/aoc/2015/dist-newstyle/build/x86_64-linux/ghc-9.6.3/AOC2015-0.1.0.0/x/AOC2023/opt/build/AOC2023/autogen/Paths_AOC2015.hs	35;"	f
 version	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/Crypto/KDF/Argon2.hs	78;"	f
 version	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/PackageInfo_cryptonite.hs	17;"	f
 version	/home/alex800121/haskell/aoc/2015/dist-newstyle/tmp/src-147974/cryptonite-0.30/dist/build/autogen/Paths_cryptonite.hs	35;"	f
