@@ -4,6 +4,7 @@
 
 module Day19 where
 
+import Paths_AOC2015
 import Control.Applicative.Combinators ((<|>))
 import Control.Monad (guard)
 import Data.Bifunctor (Bifunctor (..))
@@ -94,7 +95,7 @@ day19 = do
         )
       )
       . splitOn "\n\n"
-      <$> readFile "input/input19.txt"
+      <$> (getDataDir >>= readFile . (++ "/input/input19.txt"))
   let reverseRule =
         Map.unions [Map.singleton (parse x) (St y) | (y, b) <- Map.toList rule, x <- b]
       a = parse s

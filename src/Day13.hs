@@ -1,5 +1,6 @@
 module Day13 where
 
+import Paths_AOC2015
 import Data.List (nub, permutations, sort, sortBy)
 import Data.Map (Map)
 import qualified Data.Map as Map
@@ -25,7 +26,7 @@ calc r xs = sort $ f xs'
 
 day13 :: IO ()
 day13 = do
-  input <- Map.unionsWith (+) . map inputParser . lines <$> readFile "input/input13.txt"
+  input <- Map.unionsWith (+) . map inputParser . lines <$> (getDataDir >>= readFile . (++ "/input/input13.txt"))
   let names = nub $ concatMap ((++) <$> pure . fst <*> pure . snd) $ Map.keys input
       p = permutations names
       l = map (calc input) p

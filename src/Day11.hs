@@ -1,5 +1,6 @@
 module Day11 where
 
+import Paths_AOC2015
 import Data.Bifunctor (Bifunctor (..))
 import Data.Char (chr, ord)
 import Data.List (foldl', unfoldr, find)
@@ -41,6 +42,6 @@ pass p = any f s0 && not (any (`elem` "iol") s) && g 2 s
 
 day11 :: IO ()
 day11 = do
-  -- input <- readFile "input/input11.txt"
+  -- input <- (getDataDir >>= readFile . (++ "/input/input11.txt"))
   print $ find pass $ iterate succ $ fromString input
   print $ find pass $ tail $ dropWhile (not . pass) $ iterate succ $ fromString input

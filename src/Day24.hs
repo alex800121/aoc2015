@@ -1,5 +1,6 @@
 module Day24 where
 
+import Paths_AOC2015
 import Control.Monad (guard)
 import Data.Array
 import Data.List (delete, sort, sortBy, uncons, insert, minimumBy)
@@ -21,7 +22,7 @@ sumV m n (x : xs)
 
 day24 :: IO ()
 day24 = do
-  input <- sort . map (read @Int) . lines <$> readFile "input/input24.txt"
+  input <- sort . map (read @Int) . lines <$> (getDataDir >>= readFile . (++ "/input/input24.txt"))
   let s = sum input `div` 3
       l = length input `div` 3
       s' = sum input `div` 4

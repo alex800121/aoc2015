@@ -11,5 +11,5 @@ go target t@(x, y) i
 
 day25 :: IO ()
 day25 = do
-  -- input <- readFile "input/input25.txt"
+  -- input <- (getDataDir >>= readFile . (++ "/input/input25.txt"))
   print $ go input (1, 1) 20151125

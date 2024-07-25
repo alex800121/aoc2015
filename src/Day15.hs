@@ -1,5 +1,6 @@
 module Day15 where
 
+import Paths_AOC2015
 import Data.Bifunctor (Bifunctor (..))
 import Data.List (transpose)
 
@@ -22,7 +23,7 @@ splitN a b
 
 day15 :: IO ()
 day15 = do
-  input <- map inputParser . lines <$> readFile "input/input15.txt"
+  input <- map inputParser . lines <$> (getDataDir >>= readFile . (++ "/input/input15.txt"))
   -- input <- map inputParser . lines <$> readFile "input/test15.txt"
   let l = length input
       n = splitN (100 :: Int) l

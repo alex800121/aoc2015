@@ -1,5 +1,6 @@
 module Day16 where
 
+import Paths_AOC2015
 import Data.Foldable (find)
 import Data.IntMap (IntMap)
 import qualified Data.IntMap as IM
@@ -32,7 +33,7 @@ auntParser = do
 
 day16 :: IO ()
 day16 = do
-  input <- IM.unions . mapMaybe (parseMaybe auntParser) . lines <$> readFile "input/input16.txt"
+  input <- IM.unions . mapMaybe (parseMaybe auntParser) . lines <$> (getDataDir >>= readFile . (++ "/input/input16.txt"))
   print $ fst $ IM.findMin $ IM.filter (all (\(x, y) -> gifts Map.!? x == Just y)) input
   print
     . fst

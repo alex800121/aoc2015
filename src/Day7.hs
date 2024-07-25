@@ -1,5 +1,6 @@
 module Day7 where
 
+import Paths_AOC2015
 import Control.Monad.Trans.State.Strict
 import Data.Bits
 import Data.Char (isAlpha)
@@ -53,7 +54,7 @@ opParser s = case words s of
 
 day7 :: IO ()
 day7 = do
-  input <- Map.fromList . map ((\[x, y] -> (y, opParser x)) .  splitOn " -> ") . lines <$> readFile "input/input7.txt"
+  input <- Map.fromList . map ((\[x, y] -> (y, opParser x)) .  splitOn " -> ") . lines <$> (getDataDir >>= readFile . (++ "/input/input7.txt"))
   let a = evalState (solve (R "a") input) Map.empty
   print $ a
   print $ evalState (solve (R "a") (Map.insert "b" (I a) input)) Map.empty

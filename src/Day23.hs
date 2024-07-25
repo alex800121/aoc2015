@@ -1,5 +1,6 @@
 module Day23 where
 
+import Paths_AOC2015
 import Control.Lens
 import Data.List (unfoldr)
 import Data.Maybe (fromJust, fromMaybe)
@@ -28,6 +29,6 @@ go f x = maybe x (go f) (f x)
 
 day23 :: IO ()
 day23 = do
-  input <- V.fromList . map words . lines <$> readFile "input/input23.txt"
+  input <- V.fromList . map words . lines <$> (getDataDir >>= readFile . (++ "/input/input23.txt"))
   print $ snd . snd $ go (readIns input) (0, (0, 0))
   print $ snd . snd $ go (readIns input) (0, (1, 0))

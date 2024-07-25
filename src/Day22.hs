@@ -5,6 +5,7 @@
 
 module Day22 where
 
+import Paths_AOC2015
 import Control.Lens
 import Data.Bifunctor (Bifunctor (..))
 import Data.Either (fromRight)
@@ -132,7 +133,7 @@ dijkstra i ((n, g) PQ.:< gs)
 testGameState = G True (Player 10 250) (Boss 13 8) MS.empty
 day22 :: IO ()
 day22 = do
-  -- input <- readFile "input/input22.txt"
+  -- input <- (getDataDir >>= readFile . (++ "/input/input22.txt"))
   print $ fmap fst $ dijkstra 0 $ PQ.singleton 0 initGameState
   print $ fmap fst $ dijkstra 1 $ PQ.singleton 0 initGameState
   -- print $ dijkstra $ PQ.singleton 0 testGameState
