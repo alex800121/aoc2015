@@ -2,6 +2,7 @@
 {-# LANGUAGE PackageImports #-}
 module Day4 where
 
+import Paths_AOC2015
 import "cryptohash-md5" Crypto.Hash.MD5
 import qualified Crypto.Hash as H
 import qualified Data.ByteString.Char8 as B

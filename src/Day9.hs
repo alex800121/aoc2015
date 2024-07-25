@@ -1,5 +1,6 @@
 module Day9 where
 
+import Paths_AOC2015
 import Data.Function (on)
 import Data.List (nub, permutations)
 import Data.List.Split (splitOn)
@@ -25,7 +26,7 @@ getDistance r v = Map.findWithDefault (getDistance r (swap v)) v r
 
 day9 :: IO ()
 day9 = do
-  input <- Map.unions . map parseRoad . lines <$> readFile "input/input9.txt"
+  input <- Map.unions . map parseRoad . lines <$> (getDataDir >>= readFile . (++ "/input/input9.txt"))
   let vs =
         map (sum . (zipWith (curry (getDistance input)) <$> id <*> tail))
           . permutations

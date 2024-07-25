@@ -1,5 +1,6 @@
 module Day20 where
 
+import Paths_AOC2015
 import Data.List (find, findIndex, nub)
 import MyLib (sqrtCeiling)
 

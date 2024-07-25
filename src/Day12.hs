@@ -1,5 +1,6 @@
 module Day12 where
 
+import Paths_AOC2015
 import Data.Bifoldable
 import MyLib
 import Text.Megaparsec
@@ -37,6 +38,6 @@ day12b (Ob ls) = if any ((== St "red") . snd) ls then 0 else sum (map (day12b . 
 
 day12 :: IO ()
 day12 = do
-  Just input <- parseMaybe (jsonParser <* newline) <$> readFile "input/input12.txt"
+  Just input <- parseMaybe (jsonParser <* newline) <$> (getDataDir >>= readFile . (++ "/input/input12.txt"))
   print $ bifoldr (const id) (+) 0 input
   print $ day12b input

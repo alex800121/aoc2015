@@ -1,4 +1,5 @@
 module Day5 where
+import Paths_AOC2015
 import Data.List (isInfixOf, group)
 import Data.List.Split (divvy)
 
@@ -20,6 +21,6 @@ niceB s = pairs s && threes
     threes = any ((==) <$> head <*> last) $ divvy 3 1 s
 day5 :: IO ()
 day5 = do
-  input <- lines <$> readFile "input/input5.txt"
+  input <- lines <$> (getDataDir >>= readFile . (++ "/input/input5.txt"))
   print $ length $ filter niceA input
   print $ length $ filter niceB input

@@ -4,6 +4,7 @@
 
 module Day6 where
 
+import Paths_AOC2015
 import Control.Monad.ST.Strict (ST, runST)
 import qualified Data.Array.MArray as M
 import qualified Data.Array.ST as S
@@ -61,6 +62,6 @@ day6b Toggle = (+ 2)
 
 day6 :: IO ()
 day6 = do
-  input <- mapMaybe (parseMaybe insParser) . lines <$> readFile "input/input6.txt"
+  input <- mapMaybe (parseMaybe insParser) . lines <$> (getDataDir >>= readFile . (++ "/input/input6.txt"))
   print $ length $ filter id $ U.elems $ run day6a input (initArray False)
   print $ sum $ run day6b input (initArray (0 :: Int))
