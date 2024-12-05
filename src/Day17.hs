@@ -1,9 +1,9 @@
 module Day17 where
 
-import Paths_AOC2015
 import Control.Applicative (Alternative (empty))
-import Data.List (sortBy, tails, uncons, sort, group)
+import Data.List (group, sort, sortBy, tails, uncons)
 import Data.Maybe (mapMaybe)
+import Paths_AOC2015
 
 fill :: Int -> [Int] -> [[Int]]
 fill n xs = go n xs'
@@ -18,7 +18,7 @@ fill n xs = go n xs'
 
 day17 :: IO ()
 day17 = do
-  input <- map (read @Int) . lines <$> (getDataDir >>= readFile . (++ "/input/input17.txt"))
+  input <- map (read @Int) . lines <$> (readFile . (++ "/input/input17.txt") =<< getDataDir)
   let a = fill 150 input
   print $ length a
   print $ length $ head $ group $ sort $ map length a

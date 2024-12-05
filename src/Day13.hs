@@ -1,10 +1,10 @@
 module Day13 where
 
-import Paths_AOC2015
 import Data.List (nub, permutations, sort, sortBy)
 import Data.Map (Map)
 import qualified Data.Map as Map
 import Data.Maybe (mapMaybe)
+import Paths_AOC2015
 
 type Name = String
 

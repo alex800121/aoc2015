@@ -1,11 +1,11 @@
 module Day18 where
 
-import Paths_AOC2015
 import Data.Array.Unboxed (Array)
 import qualified Data.Array.Unboxed as U
 import Data.Bifunctor (Bifunctor (..))
 import Data.Maybe (mapMaybe)
 import MyLib (drawArray)
+import Paths_AOC2015
 
 type Lights = Array Index Bool
 
@@ -60,7 +60,7 @@ step a = a'
 
 day18 :: IO ()
 day18 = do
-  input <- U.amap (== '#') . drawArray @Array . lines <$> (getDataDir >>= readFile . (++ "/input/input18.txt"))
+  input <- U.amap (== '#') . drawArray @Array . lines <$> (readFile . (++ "/input/input18.txt") =<< getDataDir)
   print
     . length
     . filter id
