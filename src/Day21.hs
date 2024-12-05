@@ -2,11 +2,11 @@
 
 module Day21 where
 
-import Paths_AOC2015
 import Control.Lens (bimap)
 import MyLib (pick)
 import Data.Function (on)
 import Data.List (sortBy, find)
+import Paths_AOC2015
 
 weapons = zip [8, 10, 25, 40, 74] $ map (,0) [4 .. 8]
 
@@ -45,6 +45,6 @@ play (P r0 h0 d0 a0) (P r1 h1 d1 a1)
 
 day21 :: IO ()
 day21 = do
-  boss <- (\[x, y, z] -> P False x y z) . map (read @Int . last . words) . lines <$> (getDataDir >>= readFile . (++ "/input/input21.txt"))
+  boss <- (\[x, y, z] -> P False x y z) . map (read @Int . last . words) . lines <$> (readFile . (++ "/input/input21.txt") =<< getDataDir)
   print $ fmap fst $ find ((`play` boss) . buildPlayer True 100) $ sortBy (compare `on` fst) buy
   print $ fmap fst $ find (not . (`play` boss) . buildPlayer True 100) $ sortBy (flip compare `on` fst) buy

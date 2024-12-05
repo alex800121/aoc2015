@@ -1,7 +1,8 @@
 module Day5 where
-import Paths_AOC2015
+
 import Data.List (isInfixOf, group)
 import Data.List.Split (divvy)
+import Paths_AOC2015
 
 niceA :: String -> Bool
 niceA s = containVowelN 3 s && not (any (`isInfixOf` s) disallowed) && any ((>= 2) . length) (group s)
@@ -21,6 +22,6 @@ niceB s = pairs s && threes
     threes = any ((==) <$> head <*> last) $ divvy 3 1 s
 day5 :: IO ()
 day5 = do
-  input <- lines <$> (getDataDir >>= readFile . (++ "/input/input5.txt"))
+  input <- lines <$> (readFile . (++ "/input/input5.txt") =<< getDataDir)
   print $ length $ filter niceA input
   print $ length $ filter niceB input

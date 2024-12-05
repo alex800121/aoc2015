@@ -1,9 +1,9 @@
 module Day3 where
 
-import Paths_AOC2015
 import Data.Bifunctor (Bifunctor (..))
 import Data.List (scanl', nub, transpose)
 import MyLib
+import Paths_AOC2015
 import Data.List.Split (divvy)
 
 initPos = (0, 0)
@@ -18,6 +18,6 @@ walk = scanl' f initPos
 
 day3 :: IO ()
 day3 = do
-  input <- (getDataDir >>= readFile . (++ "/input/input3.txt"))
+  input <- readFile . (++ "/input/input3.txt") =<< getDataDir
   print $ length $ nub $ walk input
   print $ length $ nub $ concatMap walk $ transpose $ divvy 2 2 input

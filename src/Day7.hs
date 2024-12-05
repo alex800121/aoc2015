@@ -54,7 +54,7 @@ opParser s = case words s of
 
 day7 :: IO ()
 day7 = do
-  input <- Map.fromList . map ((\[x, y] -> (y, opParser x)) .  splitOn " -> ") . lines <$> (getDataDir >>= readFile . (++ "/input/input7.txt"))
+  input <- Map.fromList . map ((\[x, y] -> (y, opParser x)) .  splitOn " -> ") . lines <$> (readFile . (++ "/input/input7.txt") =<< getDataDir)
   let a = evalState (solve (R "a") input) Map.empty
-  print $ a
+  print a
   print $ evalState (solve (R "a") (Map.insert "b" (I a) input)) Map.empty

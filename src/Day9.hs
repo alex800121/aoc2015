@@ -26,7 +26,7 @@ getDistance r v = Map.findWithDefault (getDistance r (swap v)) v r
 
 day9 :: IO ()
 day9 = do
-  input <- Map.unions . map parseRoad . lines <$> (getDataDir >>= readFile . (++ "/input/input9.txt"))
+  input <- Map.unions . map parseRoad . lines <$> (readFile . (++ "/input/input9.txt") =<< getDataDir)
   let vs =
         map (sum . (zipWith (curry (getDistance input)) <$> id <*> tail))
           . permutations

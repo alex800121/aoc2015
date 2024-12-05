@@ -46,6 +46,9 @@ common shared
         AOC
     default-extensions: TypeFamilies, OverloadedRecordDot, TypeApplications, DataKinds, LambdaCase
     ghc-options: -O2
+    other-modules: 
+        Paths_AOC2015
+
 
 library
     import: shared

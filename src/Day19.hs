@@ -1,10 +1,8 @@
 {-# LANGUAGE FlexibleInstances #-}
-{-# LANGUAGE TupleSections #-}
 {-# LANGUAGE StandaloneDeriving #-}
 
 module Day19 where
 
-import Paths_AOC2015
 import Control.Applicative.Combinators ((<|>))
 import Control.Monad (guard)
 import Data.Bifunctor (Bifunctor (..))
@@ -21,6 +19,7 @@ import Debug.Trace (traceShow)
 import qualified Text.Megaparsec as T
 import Text.ParserCombinators.ReadP
 import Text.Read (Read (..), lift)
+import Paths_AOC2015
 
 type NParser = T.Parsec Void [NewString]
 
@@ -95,7 +94,7 @@ day19 = do
         )
       )
       . splitOn "\n\n"
-      <$> (getDataDir >>= readFile . (++ "/input/input19.txt"))
+      <$> (readFile . (++ "/input/input19.txt") =<< getDataDir)
   let reverseRule =
         Map.unions [Map.singleton (parse x) (St y) | (y, b) <- Map.toList rule, x <- b]
       a = parse s
